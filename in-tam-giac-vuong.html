@@ -7,13 +7,22 @@
 <body>
 <script>
 
-    for (let i=5; i>=1;i--){
+for (let i=1;i<=21;i++){
+    document.write('*');
+}
+document.write('<br>');
 
-        for (let j=1;j<=i;j++){
-               document.write('*')
-        }
-        document.write('<br>')
+for (let j=1;j<=5;j++){
+    document.write('*');
+    for (let i=1;i<=19;i++){
+        document.write('&nbsp;&nbsp;');
     }
+    document.write('*');
+    document.write('<br>');
+}
+for (let i=1;i<=21;i++){
+    document.write('*');
+}
 
 </script>
 </body>
